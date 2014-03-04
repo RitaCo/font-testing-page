@@ -1,6 +1,6 @@
 var GRUMPIES = {
 	'short': {
-		'text': "Grumpy wizards make toxic brew for the evil Queen and Jack. A quick movement of the enemy will jeopardize six gunboats. The job of waxing linoleum frequently peeves chintzy kids. My girl wove six dozen plaid jackets before she quit. Twelve ziggurats quickly jumped a finch box.",
+		'text': "لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید.",
 		'columns': [ // single column
 			{
 				sizes: [72, 60, 48, 36, 30, 29, 28, 27, 26, 25, 24, 23, 22, 21, 20, 19, 18, 17, 16, 15, 14, 13, 12],
@@ -11,7 +11,7 @@ var GRUMPIES = {
 	},
 
 	'long': {
-		'text': "Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. 01234567890 ",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [ // two columns
 			{sizes: [20, 19, 18, 17], innerblock: '.textsettingCol1'},
 			{sizes: [16, 15, 14, 13, 12, 11, 10], innerblock: '.textsettingCol2'}
@@ -20,7 +20,7 @@ var GRUMPIES = {
 	},
 
 	'lowercaseShort': {
-		'text': "the five boxing wizards jump quickly pack my red box with five dozen quality jugs a very big box sailed up then whizzed quickly from japan",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [
 			{sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
 		],
@@ -28,7 +28,7 @@ var GRUMPIES = {
 	},
 
 	'lowercaseLong': {
-		'text': "serviced tightly trestle custom nosey impugned gooier deeper oat charade smashed welting clopping fondly discard welfare gaudy mission shoddily mooed knelling glance golfed trope togae knocked vulgarly gigabyte curbing snowball outback stepped marmot clayier coltish descry gratify root freedom puree urgency moist careered journal oracle felony marble salary readying besiege twitched ranching snoozing disk mister warbling outwit schism sudsiest street gondola blushing pennon smarted jiving sty rocker griping rocketry dieing tarring A very big box sailed up then whizzed quickly from Japan the five boxing wizards jump quickly pack my red box with five dozen quality jugs",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [
 			{sizes: [16, 15, 14], innerblock: '.textsettingCol1'},
 			{sizes: [13, 12, 11, 10], innerblock: '.textsettingCol2'}
@@ -37,7 +37,7 @@ var GRUMPIES = {
 	},
 
 	'adhesionShort': {
-		'text': "adhesion donnishness indianians deaden on ode so sheenie died dashed dens seaside easines nonseasoned seen hindi said seines sadnesses deaden donnishness dissensions dead",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر",
 		'columns': [
 			{sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
 		],
@@ -45,7 +45,7 @@ var GRUMPIES = {
 	},
 
 	'adhesionLong': {
-		'text': "dined shoon hooded ahead shined hashed dinned soon nod nine sane inned ani session doe node idea side indeed aide anise hose noose noshed inside hid aeon inane none hoed nosed diseased handed noise haded sanded one hie deeded shine honed disdained hen ash said hah onion sodded donned and aha dine disease deed adenoid hoodooed deaned end denied anon iodine nosh shooed deadened sided addenda did aniseed sand hied nodded nose shoeshine hashish hissed done seed noon sensed sinned needed send nooned odd disdain shinned anion had shied",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [
 			{sizes: [16, 15, 14], innerblock: '.textsettingCol1'},
 			{sizes: [13, 12, 11, 10], innerblock: '.textsettingCol2'}
@@ -54,7 +54,7 @@ var GRUMPIES = {
 	},
 
 	'hamburgefonstivShort': {
-		'text': "fortieth boring trait favoring barrage referring thrusting tannest embargo sausage gaining astutest augur hibernate variant hearse beggaring foresee eagerer hearten ensnaring tufting interstate meager veneration stigma feminine tabbing noising trimming throbbing ransoming stiffen oaring fishing rehire overbore bonniest ravishment teensiest mintier shriven unforeseen overrate surgeon smarter submarine revenging assuaging masher amnesia insentient rehashing fresher buttering sorghum thine sitter month serer minting variate torsion gaunt",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [
 			{sizes: [72, 60, 48, 36, 30, 24, 18], innerblock: 'div:first'}
 		],
@@ -62,7 +62,7 @@ var GRUMPIES = {
 	},
 
 	'hamburgefonstivLong': {
-		'text': "fortieth boring trait favoring barrage referring thrusting tannest embargo sausage gaining astutest augur hibernate variant hearse beggaring foresee eagerer hearten ensnaring tufting interstate meager veneration stigma feminine tabbing noising trimming throbbing ransoming stiffen oaring fishing rehire overbore bonniest ravishment teensiest mintier shriven unforeseen overrate surgeon smarter submarine revenging assuaging masher amnesia insentient rehashing fresher buttering sorghum thine sitter month serer minting variate torsion gaunt berthing goofiest sober informing sourer tonight neigh iratest torte situate rheumier antagonist serening motion guise unseeing masseuse",
+		'text': " لورم ایپسوم متن ساختگی به سادگی از صنعت شناخته چاپ استاندارد و وب سایت حروفچینی است. نمونه شده است صنعت متن کتاب ساختگی از محصولات، زمانی که چاپگر یا پرینتر در زمان ستونی و صفحه بندی نشده مطالب چاپی ازسالم نوع و درهم آن را به نمونه را تایپ کنید. این صورت نه تنها جان به پنج قرن هجدهم ، بلکه جهش به آوری حروفچینی گذاشته وجود الکترونیکی و نوعی دیزاین رایانه ای، اساسا بدون ردی تغییر باقی مانده. آن را در فوتبال با انتشار ورق حاوی شهریار معابر فکری هکرها پزشک محبوبیت بود، و اخیرا فکری با نرم افزار هکر را نشر شناخت هیت من رومیزی همانند از جمله نسخه های دیگران بوده است راکه در پی فرهنگ پس از آن و می خواهد به آن را دارند، تنها به استفاده دلیل آن است.. 123456789 ۱۲۳۴۵۶۷۸۹۰",
 		'columns': [
 			{sizes: [16, 15, 14], innerblock: '.textsettingCol1'},
 			{sizes: [13, 12, 11, 10], innerblock: '.textsettingCol2'}

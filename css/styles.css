@@ -1,13 +1,13 @@
 body { background: white; color: black; }
-section { display: block; float: left; margin: 0; width: 100%; }
+section { display: block; float: right; margin: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 
 #dropcontainer { width: 920px; margin: 0 20px; padding: 0px; }
 header { background: #ccc; }
 header h1 { margin: 0; padding: 30px 16px; }
 
-#toggleotfeatures { float: left; width: 880px; margin: 0 20px; padding: 8px 20px; background-color: #bababa; }
-#otfeatures { float: left; width: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; }
+#toggleotfeatures { float: right; width: 880px; margin: 0 20px; padding: 8px 20px; background-color: #bababa; }
+#otfeatures { float: left; right: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; }
 #otfeatures table td { padding: 4px 20px;}
 
 #toggleotfeatures, #otfeatures { font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; font-size: small}
@@ -34,7 +34,7 @@ UL.tabNavigation LI A:focus { outline: 0; }
 div.tabs > div { padding: 20px; }
 div.tabs > div h2 { margin-top: 0; }
 
-.textsettingCol1 { width: 450px; float: left; }
+.textsettingCol1 { width: 450px; float: right; }
 .textsettingCol2 { width: 450px; float: right; }
 
 #ruder td { font-size: 32px; line-height: 1; margin: 0; padding: 4px; }
