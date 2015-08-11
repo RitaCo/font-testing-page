@@ -49,7 +49,7 @@ TCNDDF.handleDrop = function (evt) {
 var dt = evt.dataTransfer,
 files = dt.files || false,
 count = files.length,
-acceptedFileExtensions = /^.*\.(ttf|otf|woff)$/i;
+acceptedFileExtensions = /^.*\.(ttf|otf|woff|woff2)$/i;
 
 
 TCNDDF.preventActions(evt);

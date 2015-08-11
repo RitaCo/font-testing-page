@@ -4,7 +4,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="author" content="Pablo Impallari www.impallari.com" />
-<title>Font Testing Page - Impallari.com/testing</title>
+<title>Persian Font Testing Page - Impallari.com/testing</title>
 <link type="text/css" href="css/styles.css" rel="stylesheet" charset="utf-8" />
 <link type="text/css" href="css/print.css" rel="stylesheet" media="print" charset="utf-8" />
 <script src="js/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
@@ -43,6 +43,7 @@ $(document).ready(function(){
 	// Grab the text from the JS constant file, and show it
 	prepareAndShowFontLayout();
 
+	$('#brower-version').html(window.navigator.userAgent).css('color','red');
 });
 </script>
 </head>
@@ -251,11 +252,13 @@ OT Features
 	  <div id="lettering">
 	  		<div style="width: 880px; text-align: center; padding: 20px 20px;">
 				<p class="sizelabel">Lettering Sheet 72 points</p>
-				<p contenteditable="true" style="font-size: 72px;">  الف  ب  پ  ت  ث  ج  چ  ح  خ  د  ذ  ر  ز  ژ  س  ش  ص  ض  ط  ظ  ع  غ  ف  ق  ک  گ  ل  م  ن  و  ه  ی <br>
+				<p contenteditable="true" style="font-size: 72px;">  
+                ء ءآ آ أ أ إإ اا<br/>ؤؤ وو<br/>ئ ئئئ<br/>ی ییی<br/>ب ببب<br/>ت تتت‬‬<br/>ث ثثث<br/>‍پ پپپ<br/>ج ججج<br/>ح ححح‬<br/>خ خخخ ‬‬<br/>چ چچچ<br/>دد ذذ<br/>رر زز ژژ<br/>س سسس‬<br/>‫ش ششش‬‬<br/>ص صصص<br/>ض ضضض‬<br/>ط ططط ‬‬<br/>ظ ظظظ<br/>ع ععع<br/>غ غغغ<br/>ف‬ ‫ففف‬‬<br/>ق ققق<br/>ك ككك <br/>ک ککک <br/>گ گگگ <br/>ل للل<br/>م ممم‬<br/>‫ن ننن‬‬<br/>ه هههه<br/>
+                				۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰<br /><br />
 				A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br />
 				a b c d e f g h i j k l m n o p q r s t u v w x y z<br />
 				1 2 3 4 5 6 7 8 9 0<br /><br />
-				۱ ۲ ۳ ۴ ۵ ۶ ۷ ۸ ۹ ۰<br /><br />
+
 				( { [ . , ¡ ! ¿ ? * ' ‘ ’ " “ ” ] } )<br />
 				$ € £ % @ &amp; ¶ § ¢ † ‡ </p>
 				<p>&nbsp;</p>
@@ -647,6 +650,7 @@ OT Features
 
 </section>
 
+<section id="brower-version"></section>
 <!-- Footer -->
 <section id="pie">
 	<p>Font Testing Page v<span id="pageVersion"><script>document.getElementById('pageVersion').innerHTML = version;</script> by <a href="http://www.impallari.com">Pablo Impallari</a>, <a href="http://www.omnibus-type.com">Pablo Cosgaya</a> and <a href="http://understandingfonts.com/">Dave Crossland</a>. Download the source code and post your comments and suggestions at the <a href="http://www.impallari.com/projects/overview/drag-and-drop-font-testing-page">Project Page</a></p>
