@@ -131,9 +131,22 @@ div.tabs > div h2 { margin-top: 0; }
 
 #ruder td { font-size: 32px; line-height: 1; margin: 0; padding: 4px; }
 
-#pie { padding: 20px; width: 920px; }
-#pie p { color: #666;  font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important;  font-size: 10px;  line-height: 18px;  font-style: normal; margin: 0; }
-#pie p a { color: #666; }
+#pie { 
+    display:block;
+    padding: 5px; 
+   
+    background:#C1C3B6;
+}
+#pie p { 
+    color: #000;  
+    font-family: Tahoma;
+    font-size: 12px;  
+    line-height: 12px;  
+    font-style: normal; 
+    margin: 5px; 
+    text-align:center;
+}
+#pie p a { color: #444; }
 
 .multicolumn3 {
 	-moz-column-count: 3;
@@ -147,11 +160,12 @@ div.tabs > div h2 { margin-top: 0; }
 
 #brower-version{
     display:block;
-    padding:10px 0;
-    margin-top:10px;
+    padding:2px 0;
+        
     text-align:center;
-    background-color:#000;
-    color:#fff;
+    background-color:#8A7751;
+    color:#C8C8C8;
+    font-size:12px;
     font-family:sans-serif;
 } 
 
