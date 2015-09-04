@@ -1,41 +1,133 @@
-body { background: white; color: black; }
-section { display: block; float: right; margin: 0; width: 100%; }
+body { 
+    background: white; 
+    color: black;  
+    padding:0px;
+    margin:0px;
+
+}
+section { display: block; margin: 0; width: 100%; }
 h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 
-#dropcontainer { width: 920px; margin: 0 20px; padding: 0px; }
-header { background: #ccc; }
+#dropcontainer { padding: 0px; }
+#dropcontainer > header > h1{font-family : tahoma !important;}
+header { background: #C1C3B6 ;  }
 header h1 { margin: 0; padding: 30px 16px; }
 
-#toggleotfeatures { float: right; width: 880px; margin: 0 20px; padding: 8px 20px; background-color: #bababa; }
-#otfeatures { float: left; right: 920px; margin: 0px 20px 10px; padding: 0px 0px 8px; background: #bababa; }
+#toggleotfeatures { 
+    display:block;
+    padding: 8px 20px; 
+    background-color: #8A7751; 
+}
+
+#otfeatures { 
+    position: absolute;
+    margin: 0px 20px 10px; 
+    padding: 0px 0px 8px; 
+    background: #BAB971; 
+    direction:ltr;
+    z-index:100;
+    width:900px;
+ }
 #otfeatures table td { padding: 4px 20px;}
 
-#toggleotfeatures, #otfeatures { font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; font-size: small}
+#toggleotfeatures, #otfeatures { 
+    font-family : tahoma !important; 
+    font-size: small
+}
 #toggleotfeatures a { color: #fff; text-decoration:none; text-shadow: 1px 1px 2px black; }
 
 p#generatedcode { margin: 0; padding: 0; font: normal 10px/1 "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
 p#csscode { margin: 0; padding: 0; font: normal 10px/1 "Lucida Grande","Lucida Sans Unicode", arial, sans-serif; }
 
-#fonts { margin: 0;  padding: 0; background: #eee; position: fixed; left: 28px; top: 8px; width: 920px; }
+#fonts { 
+    margin: 0;  
+    padding: 0px; 
+    direction:ltr; 
+    background: #eee ; 
+    position: fixed; 
+    left: 8px; 
+    top: 8px; 
+    width: 960px; 
+}
 
-#fonts li { display: inline;  list-style: none; cursor: pointer; margin: 0 0.5em; }
-#fonts li span { margin: 2em 0.2em 0 0.2em; }
+#fonts li { 
+    display: inline-block;  
+    list-style: none; 
+    cursor: pointer; 
+    margin:2px 2px 0px 2px ; 
+    background:#eee;
+height: 24px;
+overflow: hidden;
+vertical-align: middle;
+}
+#fonts li span { 
+    margin:0px 4px; 
+    font-family:tahoma; 
+    font-size:12px; 
+    vertical-align: text-top;
+}
 #fonts li.active { background: #CCCCCC; }
 
-#custom { margin: 0; padding: 0; }
+#custom { 
+    margin: 0px 0px; 
+    padding: 0; 
+    display:block;
+    width:100%;
+    overflow:auto;
+    position:relative;
+}
 #custom p { margin: 0; padding: 0; }
-#custom p.sizelabel {  color: #666;  font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; font-size: 10px; line-height: 10px; font-style: normal; padding-bottom: 10px; }
+#custom p.sizelabel {  
+    color: #666;  
+    font-family: "Lucida Grande","Lucida Sans Unicode", arial, sans-serif !important; 
+    font-size: 10px; 
+    line-height: 10px; 
+    font-style: normal; 
+    padding-bottom: 10px; 
+ }
 
-UL.tabNavigation { list-style: none; margin: 16px 0 0 20px; padding: 0 0 2px; width: 920px; }
-UL.tabNavigation LI { display: inline; font-family: arial, sans-serif; }
-UL.tabNavigation LI A { padding: 4px 6px; margin: 0; background-color: #ccc; color: #000; text-decoration: none; }
-UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover { background-color: #333; color: #fff; padding-top: 8px; }
+ #tabs{
+    display:block;
+    position:relative;
+ }
+ 
+UL.tabNavigation { 
+    list-style: none; 
+    margin: 16px 0 0 20px; 
+    padding: 0 0 2px; 
+    display:block;
+}
+UL.tabNavigation LI { 
+    display: inline; 
+    font-family: arial, sans-serif; 
+}
+UL.tabNavigation LI A { 
+    padding: 4px 6px; 
+    margin: 0; 
+    background-color: #ccc; 
+    color: #000; 
+    text-decoration: none; 
+}
+UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover { 
+    background-color: #333; 
+    color: #fff; 
+    padding-top: 8px; 
+}
 UL.tabNavigation LI A:focus { outline: 0; }
-div.tabs > div { padding: 20px; }
+
 div.tabs > div h2 { margin-top: 0; }
 
-.textsettingCol1 { width: 450px; float: right; }
-.textsettingCol2 { width: 450px; float: right; }
+#text{
+    display: flex ;
+    flex-direction: row;
+    
+}
+.textsettingCol1,
+.textsettingCol2 { 
+
+    flex:1;
+    padding:5px 10px;
+}
 
 #ruder td { font-size: 32px; line-height: 1; margin: 0; padding: 4px; }
 
@@ -51,3 +143,22 @@ div.tabs > div h2 { margin-top: 0; }
 	column-count: 3;
 	column-gap: 20px;
 }
+
+
+#brower-version{
+    display:block;
+    padding:10px 0;
+    margin-top:10px;
+    text-align:center;
+    background-color:#000;
+    color:#fff;
+    font-family:sans-serif;
+} 
+
+
+#mainContainer{
+ display:block;
+    position:realtive;
+    overflow:hidden;
+    
+}    
