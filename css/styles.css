@@ -15,14 +15,14 @@ header h1 { margin: 0; padding: 30px 16px; }
 
 #toggleotfeatures { 
     display:block;
-    padding: 8px 20px; 
+    padding: 4px 20px; 
     background-color: #8A7751; 
 }
 
 #otfeatures { 
     position: absolute;
-    margin: 0px 20px 10px; 
-    padding: 0px 0px 8px; 
+    
+    padding:  8px; 
     background: #BAB971; 
     direction:ltr;
     z-index:100;
@@ -43,37 +43,42 @@ p#csscode { margin: 0; padding: 0; font: normal 10px/1 "Lucida Grande","Lucida S
     margin: 0;  
     padding: 0px; 
     direction:ltr; 
-    background: #eee ; 
+    background-color: #eee ; 
     position: fixed; 
     left: 8px; 
     top: 8px; 
     width: 960px; 
+    z-index:200;
 }
 
 #fonts li { 
     display: inline-block;  
     list-style: none; 
     cursor: pointer; 
-    margin:2px 2px 0px 2px ; 
+    margin:2px  ; 
     background:#eee;
-height: 24px;
-overflow: hidden;
-vertical-align: middle;
+    font-size:0px;
+
 }
 #fonts li span { 
-    margin:0px 4px; 
+    margin:0px 2px; 
     font-family:tahoma; 
-    font-size:12px; 
-    vertical-align: text-top;
+    font-size:11px; 
+
+        color: #000;
+    text-shadow: 0px 0px 1px rgba(0,0,0,0.4);
 }
-#fonts li.active { background: #CCCCCC; }
+
+#fonts li.active { 
+    background-color: #666; 
+ }
 
 #custom { 
     margin: 0px 0px; 
     padding: 0; 
     display:block;
     width:100%;
-    overflow:auto;
+    
     position:relative;
 }
 #custom p { margin: 0; padding: 0; }
@@ -93,37 +98,95 @@ vertical-align: middle;
  
 UL.tabNavigation { 
     list-style: none; 
-    margin: 16px 0 0 20px; 
-    padding: 0 0 2px; 
     display:block;
+    padding:5px;
+    margin:0;
+    text-align:center;
 }
 UL.tabNavigation LI { 
-    display: inline; 
-    font-family: arial, sans-serif; 
+    display: inline-block; 
+    font-family: tahoma;
+    background-color: #ccc;  
+    margin:0;
+    border-radius:5px;
+    overflow:hidden;
 }
 UL.tabNavigation LI A { 
-    padding: 4px 6px; 
-    margin: 0; 
-    background-color: #ccc; 
+    
+    padding: 10px 15px; 
+
+    display:block;
     color: #000; 
+    font-size:15px;
     text-decoration: none; 
 }
 UL.tabNavigation LI A.selected, UL.tabNavigation LI A:hover { 
     background-color: #333; 
     color: #fff; 
-    padding-top: 8px; 
+    
 }
 UL.tabNavigation LI A:focus { outline: 0; }
 
 div.tabs > div h2 { margin-top: 0; }
 
-#text{
+.isTools{
     display: flex ;
-    flex-direction: row;
-    
+    flex-direction: column;
+    width: 100%;
+    position: realtive;
+    overflow:hidden;
 }
+
+.tests-container{
+    margin:10px;
+    flex:1;
+}
+
+.tests-container.row{
+        
+           
+       
+}
+
+.tests-container.col{
+     
+     display: flex ;
+        flex-direction: row;
+}
+
+.tools{
+         display: flex ;
+    flex-direction: row;
+    padding:10px 0;
+    flex:0;  
+    align-items: stretch;
+justify-content: center;
+}    
+
+.tools a{
+       display:block;
+       background-color:#eee;
+       border:1px solid #000;
+       color:#000;
+        font-size:13px;
+        padding:5px 10px;
+        margin:0 5px;
+        font-weight:700;
+        font-family:tahoma;
+        flex:0 1 auto;
+        
+        cursor:pointer;
+        text-align:center;
+}  
+.tools > div{
+         flex:0 1 auto;
+                 font-weight:700;
+        font-family:tahoma;
+margin:0 5px;             
+}    
 .textsettingCol1,
-.textsettingCol2 { 
+.textsettingCol2,
+.textsettingCol3 { 
 
     flex:1;
     padding:5px 10px;
@@ -138,15 +201,15 @@ div.tabs > div h2 { margin-top: 0; }
     background:#C1C3B6;
 }
 #pie p { 
-    color: #454545;  
+    color: #000;  
     font-family: Tahoma;
-    font-size: 11px;  
-    line-height: 18px;  
+    font-size: 12px;  
+    line-height: 12px;  
     font-style: normal; 
     margin: 5px; 
     text-align:center;
 }
-#pie p a { color: #666; }
+#pie p a { color: #444; }
 
 .multicolumn3 {
 	-moz-column-count: 3;
@@ -176,3 +239,125 @@ div.tabs > div h2 { margin-top: 0; }
     overflow:hidden;
     
 }    
+
+
+
+#kern ul{
+   display:flex;
+
+   list-style:none;
+   flex-flow:row wrap;
+ 
+   padding:10px;
+   margin:0;
+}
+#kern ul+ul{
+      border-top:2px solid rgba(0,0,0,0.1);
+}    
+#kern ul li{
+ font-size:30px;   
+ flex:0 1 auto;
+ padding: 10px;
+background-color: #eee;
+  min-width: 40px;
+text-align: center;    
+    border:1px solid #d1d1d1;
+    margin: 5px;
+}    
+
+
+#connections{
+    display:flex;
+
+   list-style:none;
+   flex-flow:column wrap;
+}
+
+
+#connections ul{
+           display:flex;
+
+   list-style:none;
+   flex-flow:row wrap;
+        flex:1;
+}
+
+
+
+#connections ul li{
+        
+    font-size:30px;   
+    flex:0 1 auto;
+    padding: 10px;
+    background-color: #eee;
+    margin: 5px;
+    min-width: 40px;
+    text-align: center;    
+    border:1px solid #d1d1d1;
+}
+
+
+
+#numbers .box{
+    margin-bottom:10px;
+    text-align:center;
+}
+
+#lettering {
+     display:flex;
+           flex-flow:column wrap;   
+}
+#lettering .box{
+        display:flex;
+           flex-flow:column wrap;
+}    
+
+
+
+#lettering .box .Header{
+        flex:0;
+       border-bottom:2px solid #d1d1d1;
+       padding:10px; 
+}    
+
+#lettering .box .body{
+        flex:1;
+                 display:flex;
+           flex-flow:row wrap;
+           list-style:none;
+           padding:10px;
+           
+}    
+
+
+#lettering .box .body li{
+    flex:0 1 auto;
+                 display:flex;
+        flex-flow:    column wrap;
+       margin: 5px;
+    
+    text-align: center;    
+    border:1px solid #d1d1d1; 
+    width:50px;
+}    
+
+#lettering .box .body li p{
+        flex:1;
+}    
+
+#lettering .box .body li p:first-child{
+    order:1;
+    font-size:40px;
+}
+
+#lettering .box .body li p:last-child{
+    
+    background-color: #eee;
+    font-family:tahoma;
+    font-size:10px;
+    padding:2px;
+    direction:ltr;
+    text-overflow: ellipsis;
+overflow: hidden;
+}
+
