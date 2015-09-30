@@ -11,7 +11,7 @@ h1, h2, h3, h4 { font-family: arial, sans-serif; font-weight: normal; }
 #dropcontainer { padding: 0px; }
 #dropcontainer > header > h1{font-family : tahoma !important;}
 header { background: #C1C3B6 ;  }
-header h1 { margin: 0; padding: 30px 16px; }
+header h1 { margin: 0; padding: 30px 16px; text-indent:100px; }
 
 #toggleotfeatures { 
     display:block;
