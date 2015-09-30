@@ -22,10 +22,21 @@ var TCNDDF = TCNDDF || {};
         dropListing = document.getElementById("fonts");
         dropContainer = document.getElementById("dropcontainer");
         displayContainer = document.getElementById("custom");
+		fallback =document.getElementById("fallbak");
         styleSheet = document.styleSheets[0];
         
         dropListing.addEventListener("click", TCNDDF.handleFontChange, false);
-        
+        fallback.addEventListener("change", function(){
+			a = dropListing.getElementsByClassName('active');
+			console.log(a);
+			if(a.length){
+				          getFontFamily = a[0].title + ","+ fallback.value;
+        console.log(getFontFamily);
+        displayContainer.style.fontFamily = getFontFamily;
+			//var event = new Event('click', {'view': window,'bubbles': true,'cancelable': false});
+			//a[0].dispatchEvent(event);
+			}
+		}, false);
         /* LocalStorage events */
         if (persistantStorage) {
             displayContainer.addEventListener("keyup", function() {
@@ -167,7 +178,10 @@ reader.addEventListener("loadend", TCNDDF.buildFontListItem, false);
         var getFontFamily = target.title
           , 
         dropListItem = dropListing.getElementsByTagName("li");
-        getFontFamily = getFontFamily + ", tahoma";
+        
+			if(fallback.value){
+			 getFontFamily = getFontFamily +","+ fallback.value;
+			}
         console.log(getFontFamily);
         displayContainer.style.fontFamily = getFontFamily;
         
