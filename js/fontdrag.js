@@ -27,8 +27,8 @@ var TCNDDF = TCNDDF || {};
         
         dropListing.addEventListener("click", TCNDDF.handleFontChange, false);
         fallback.addEventListener("change", function(){
-			a = dropListing.getElementsByClassName('active');
-			console.log(a);
+		var	a = dropListing.getElementsByClassName('active');
+			
 			if(a.length){
 				          getFontFamily = a[0].title + ","+ fallback.value;
         console.log(getFontFamily);
